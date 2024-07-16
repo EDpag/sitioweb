@@ -1,0 +1,394 @@
+/*//////////ESTRUCTURA//////////*/
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(12, 200px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.nav { 
+        grid-area: 1 / 1 / 2 / 6; 
+        height: 78px;
+        background-color: #f5ebdc;
+}
+
+.carrusel{ 
+    margin-top:-113px;
+      height: 64%;
+      grid-area: 2 / 1 / 4 / 6; 
+      background-color: rgba(255, 247, 0, 0.427);
+}
+   
+   
+.contenido{
+        margin-top: -148px;
+        grid-area: 2 / 1 / 8 / 6;
+        height: 1376px;
+        background-color: #f5ebdc ; 
+}
+.articulo1 { 
+        margin-top:7px;
+        width: 1130px;
+        height: 280px;
+        grid-area: 4 / 2 / 6 / 5; 
+        background-color: #efe0cc;
+/*asdfalksdjf*/
+border-radius: 12px;
+}
+.articulo2 { 
+        margin-top:-40px;
+        width: 1130px; 
+        height: 420px;   
+        grid-area: 6 / 2 / 8 / 5;
+
+}
+.contenido2 { 
+    grid-area: 8 / 1 / 11 / 6;
+    height: 940px;
+    background-color:#d72303;         
+}
+
+
+.pie { 
+    margin-top:340px;
+    height: 500px;
+    grid-area: 11 / 1 / 13 / 6; 
+    background-color: #502314;
+}
+
+
+/*AQUI ACABA LA ESTRUCTURA*/
+
+/*////DETALLES///*/
+img{
+    width: 100px;
+    height: auto ;
+   
+}
+nav{
+    margin-left: -450px;
+}
+.hambur{
+    margin-top: -12px;
+    width: 42px;
+    height: 43px;
+}
+#logo:hover{
+        background-color: #f5ebdc;
+        
+}
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    z-index: 10;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display:flex;
+    gap: 15px ; /*?*/
+}
+.menu a{
+    font-family: cursive;
+    text-decoration: none;
+    color: #502314;
+    padding: 8px 8px;
+    border-radius: 20px;
+}
+.menu a:hover{
+   background-color: #e6d8c4;
+   color:#db492a;
+
+}
+.menu a:focus{
+    background-color:#db492a;
+    color: white;
+}
+
+
+p{
+    
+    font-family: cursive;
+    color:#502314;
+}
+/*AQUI ESTA MI INPUT xd*/
+
+label{
+    font-size: 30px;
+
+}
+.contenedor{
+    font-family: cursive;
+    color:#502314;
+    width:80%;
+    margin-top: 59px;  
+    margin-left: 50px;/* en h1 me hacia problema al ponerlo*/
+}
+.lugares{  
+    color:#502314; 
+    height: 57px;
+    text-indent: 1px;
+    width: 513.5px;
+    background: #fff;
+    border: solid 1px #d7c7b5;
+    border-radius:7px;
+    font-family: cursive;
+    font-size: 18px;
+    text-indent:17px;
+    position:absolute;
+    outline:none;
+}
+.lugares:focus{
+    box-shadow:  #e6d5c1 0px 2px 5px,  #e6d5c1 0px 0px 0px 4px;
+}
+.mujer{
+    margin-top:-115px;
+    margin-left:670px;
+    width: 285px;
+}
+/*SEGUNDO ARTICULOOOOOOOOOOOOOOOOOO*/
+
+.novedades{
+    color:#502314;
+    font-family: cursive;   
+    font-size: 28px;
+    position:absolute;
+}
+.vertodo{
+    font-size: 16px;
+    font-family: cursive;
+    color:#d72303;
+    text-decoration:none;
+    margin-left:1060px;
+}
+.vertodo:hover{
+    filter:brightness(1.75)
+}
+.tarjeta1{
+    margin-top:10px;
+    float: left;
+    height: 358px;
+   
+}
+.nov1{
+    width:360px;
+}
+.nov1:hover{
+    cursor:pointer;
+}
+.tarjeta2{
+    margin-left:23px;
+    margin-top:10px;
+    float:left;
+ 
+    height:358px;
+}
+.nov2{
+    width:360px;
+    height: 236px;
+}
+.nov2:hover{
+    cursor:pointer;
+}
+.tarjeta3{
+    margin-left:768px;
+    margin-top:10px;
+   
+    height:358px
+}
+.nov3{
+    width:360px;
+}
+.nov3:hover{
+    cursor:pointer;
+}
+.subtitulo{
+    color:#502314;
+    font-family:cursive;
+}
+.subtitulo:hover{
+    cursor:pointer;
+}
+
+.descripcion{
+    letter-spacing:-1px;
+    color:#714b3c;
+    font-family:cursive;   
+}
+/*AQUI ACABA EL SEGUNDO ARTICULOOOOO*/
+
+
+/*CONTENIDO DOSSSSSSSSSSSSSSSSSSSS*/
+.pedidos{
+    margin-top:80px;
+    margin-left:200px;
+    background-color: white;
+    width:505px;
+    height:270px;
+    padding-left: 48px;
+    padding-top:38px;
+    border-radius:12px;
+    
+}
+.imagenesdepedidos{
+    text-align:center;
+}
+.pedir1{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left:-40px;
+    width: 200px;
+    height: 65px;
+    border-radius:15px;
+    border:none;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.pedir1:focus{
+    border:4px solid #d72303;
+
+}
+.pedir2{
+    margin-left:5px;
+    padding-left: 30px;
+    padding-right:30px;
+    width: 200px;
+    height: 65px;
+    border-radius:15px;
+    border:none;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+.pedir2:focus{
+    border:4px solid #d72303;
+}
+
+.pedir1:hover, .pedir2:hover{
+    box-shadow: rgba(99, 99, 99, 0.303) 0px 2px 8px 0px;
+
+}
+.ordenar{
+    margin-left:-35px;
+    width: 380px;
+    height: 33px;
+    margin-top:20px;
+    color:white;
+    font-family:cursive;
+    background-color:#d72303;
+    border-radius:80px;
+    border:none;
+}
+.ordenar:hover{
+    background-color:#db492a;
+}
+.ordenar:active{
+    background-color:#db4b2abe;
+}
+.hamburgruesa{
+    margin-top:-310px;
+    margin-left:771px;
+    width: 500px;
+}
+/*SEGUNDA PARTE DEL CONTENIDO DOSSSSSSSSSS*/
+.celar{
+    margin-left:-50px;
+    margin-top:130px;
+    width: 486px;
+}
+.prop{
+    color:white;
+    font-family:cursive;
+    font-size: 60px;
+    margin-top:-420px;
+    margin-left:490px;
+    width: 780px;
+}
+.playstore{
+}
+.playstore, .appstore{
+    width:140px;
+    height:50px;
+    margin-left:500px;
+}
+.playstore{
+    margin-left:660px;
+    margin-top:-79px;
+}
+.chiquipropa{
+    color:white;
+    font-family: cursive;
+    font-size:13px;
+    width:750px;
+    letter-spacing:-1px;
+    word-spacing:-2px;
+    margin-left:500px;
+}
+/*  FOOOOOTERRRR */
+.footer_contenedor{
+    width: 1150px;
+    height: 302px;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 0px 1px 0px 0px #85655b;
+}
+.logo_footer{
+    width:160px;
+    position:absolute;
+}
+
+.lista h3{
+    text-indent:30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.lista{
+    font-family:cursive;
+
+    color:white;
+    margin-left:940px;
+}
+.lista ul{
+    list-style-type:none;
+}
+.lista li{
+    margin-top:16px;
+}
+.lista a{
+    font-size:14.5px;
+    color:white;
+    text-decoration:none;
+}
+.lista a:hover{
+    color:#d72303
+}
+.derechos{
+    width:auto;
+    height: 110px;
+    padding-top: 35px;
+    
+}
+.textfinal{
+    font-size: 13.5px;
+    font-weight:bold;
+    color:white;
+    position:absolute;
+}
+.logofinal1{
+    margin-left:1050.5px;
+    width: 36px;
+}
+.logofinal2{
+    margin-left:20px;   
+    width:36px;
+}
